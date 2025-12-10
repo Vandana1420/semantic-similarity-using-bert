@@ -4,7 +4,12 @@ This project implements a lightweight NLP system that predicts semantic similari
 The model outputs a score between 0 (unrelated) and 5 (highly similar).
 
 
+# Features
 
+Fine-tuned BERT models for similarity scoring
+Simple Python API
+CPU/GPU support
+Batch prediction support
 
 
 # Model Info
@@ -15,12 +20,12 @@ The model outputs a score between 0 (unrelated) and 5 (highly similar).
 | Clinical STS BERT | MED-STS          |     0.854        |
 
 
-## Project Structure
-semantic-similarity-using-bert/
-├── semantic_text_similarity/
-├── requirements.txt
-└── README.md
+# Performance
 
+Uses BERT encoder for rich semantic understanding
+Optimized for batch inference
+GPU acceleration available
+Cached model downloads for faster reuse
 
 # Notes
 
