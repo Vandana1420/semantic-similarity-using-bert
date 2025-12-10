@@ -15,13 +15,11 @@ The model outputs a score between 0 (unrelated) and 5 (highly similar).
 | Clinical STS BERT | MED-STS          |     0.854        |
 
 
-# Project Structure
+## Project Structure
 semantic-similarity-using-bert/
-│
 ├── semantic_text_similarity/
 ├── requirements.txt
 └── README.md
-
 
 
 # Notes
